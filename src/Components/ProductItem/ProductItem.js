@@ -21,5 +21,3 @@ let ProductItem = function ({product}) {
 };
 
 export default ProductItem;
-
-sd
