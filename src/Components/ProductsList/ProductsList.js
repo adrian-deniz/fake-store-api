@@ -1,8 +1,8 @@
 import "./ProductsList.css"
 
-let ProductsList = function ({onClick , children}) {
+let ProductsList = function ({children}) {
     return (
-        <products-list onClick={onClick}>
+        <products-list>
             {children}
         </products-list>
     )

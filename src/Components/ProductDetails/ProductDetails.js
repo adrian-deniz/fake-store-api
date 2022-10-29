@@ -19,7 +19,7 @@ let ProductDetails = function () {
     .then(res=>res.json())
     .then(json=>setProduct(json))
     }, [id]);
-
+console.log(id)
     return (
         <product-details class="details" key={product.id} id={product.id}>
             <product-image><img src={product.image}></img></product-image>
